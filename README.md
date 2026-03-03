@@ -61,7 +61,7 @@ A server monitoring dashboard that connects to remote **Linux servers** via SSH,
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/network-monitoring-system.git
+   git clone https://github.com/alamgir-ahosain/network-monitoring-system.git
    cd network-monitoring-system/backend
    ```
 
@@ -112,9 +112,9 @@ Connects to a remote server via SSH and collects system metrics.
 ```json
 {
   "name": "prod-server-01",
-  "host": "192.168.1.100",
+  "host": "locahost",
   "port": 22,
-  "username": "root",
+  "username": "name",
   "password": "your-password"
 }
 ```
